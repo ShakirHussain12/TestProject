@@ -1,0 +1,61 @@
+Problem Title: Hotel Availablity Automation
+
+Description:
+Find the number of hotels available in Mumbai with price between  Rs. 2000 to Rs. 3000 for 1 day in next week.
+
+Search for hotels online to stay in Mumbai for below details
+
+1. stay will for 2 days in next week.
+
+2. Hotel price should be between Rs. 2000 to Rs. 3000 for 1 day.
+
+(Suggested Site: goibibo / Trivago, however you are free to choose any other legitimate site)
+
+
+Pre-requisites: 
+
+(i) Java version used: jdk1.8.0_261
+(ii) Selenium version used: 3.141.59 jar
+(iii) Chrome browser version: 83.0.4103.116 
+(iv) Firefox browser version: 81.0.1
+
+Solution: 
+
+1. Navigate to "https://www.kayak.co.in/" website
+
+2. Click on "Stays" tab 
+
+3. Enter "Mumbai" in the city input field that is read from "HotelData" excel file
+
+4. Select "Mumbai, Maharashtra, India" from the auto-suggestion list
+
+5. Click on increment button seven times in start date input in order to book the hotel for the next week
+
+6. Click on increment button once in end date in order to book the hotel for two days
+
+7. Click on "Search" button
+
+8. Take screenshot of the page
+
+9. Enter "2000" in the minimum price text box field that is read from "HotelData" excel file
+
+10. Enter "3000" in the minumum price text box field that is read from "HotelData" excel file
+
+11. Take screenshot of the page 
+
+12. Store the number of hotels result in the "HotelData" excel file
+
+13. Close the opened browser.
+
+
+Output in Chrome:
+The city read from excel file: Mumbai
+The minimum price read from excel file: 2000
+The maximum price read from excel file: 3000
+Hotel results when run in chrome browser are: 212
+
+Output in Firefox:
+The city read from excel file: Mumbai
+The minimum price read from excel file: 2000
+The maximum price read from excel file: 3000
+Hotel results when run in firefox browser are: 212

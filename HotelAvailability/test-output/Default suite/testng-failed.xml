@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestScenarios.Hotels">
+        <methods>
+          <include name="testCaseLocationBox"/>
+          <include name="driverExit"/>
+          <include name="testCaseDate"/>
+          <include name="testCaseStaysButton"/>
+          <include name="testCaseLocationInput"/>
+          <include name="testCaseReadExcel"/>
+          <include name="testCaseSearch"/>
+          <include name="testCaseSetMin"/>
+          <include name="driverconfig"/>
+          <include name="testCaseCitySelect"/>
+          <include name="testCaseSetPrice"/>
+          <include name="testCaseSetMax"/>
+        </methods>
+      </class> <!-- TestScenarios.Hotels -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

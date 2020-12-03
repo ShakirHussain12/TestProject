@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Testing]">
+  <test name="hotel booking-chromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testscenarios.Hotels">
+        <methods>
+          <include name="testCaseSetMin"/>
+          <include name="driverExit"/>
+          <include name="driverConfig"/>
+        </methods>
+      </class> <!-- testscenarios.Hotels -->
+    </classes>
+  </test> <!-- hotel booking-chromeTest(failed) -->
+  <test name="hotel booking-firefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testscenarios.Hotels">
+        <methods>
+          <include name="screenshotResult"/>
+          <include name="testCaseSetPrice"/>
+          <include name="testCaseSetMin"/>
+          <include name="testCaseSetMax"/>
+          <include name="testCaseHotelCount"/>
+          <include name="driverExit"/>
+          <include name="driverConfig"/>
+        </methods>
+      </class> <!-- testscenarios.Hotels -->
+    </classes>
+  </test> <!-- hotel booking-firefoxTest(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->

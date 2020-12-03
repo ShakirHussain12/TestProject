@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Functional Testing" parallel="none">
+
+  <test name="hotel booking-chromeTest">
+  <parameter name="browser" value="chrome"/>
+
+    <classes>
+
+      <class name="testscenarios.Hotels"/>
+
+    </classes>
+
+  </test> <!-- Test -->
+
+  <test name="hotel booking-firefoxTest">
+
+  <parameter name="browser" value="firefox" />
+
+    <classes>
+
+      <class name="testscenarios.Hotels"/>
+
+    </classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

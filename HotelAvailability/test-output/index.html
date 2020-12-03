@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Functional_Testing">
+              <span class="suite-name border-failed">Functional Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Functional_Testing">
+                    <span>C:\Users\875381\eclipse-workspace\HotelAvailability\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Functional_Testing">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Functional_Testing">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Functional_Testing">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Functional_Testing">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Functional_Testing">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Functional_Testing">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 6 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Functional_Testing" class="hide-methods failed suite-Functional_Testing"> (hide)</a> <!-- hide-methods failed suite-Functional_Testing -->
+                      <a href="#" panel-name="suite-Functional_Testing" class="show-methods failed suite-Functional_Testing"> (show)</a> <!-- show-methods failed suite-Functional_Testing -->
+                    </span>
+                    <div class="method-list-content failed suite-Functional_Testing">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="screenshotResult">screenshotResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseHotelCount">testCaseHotelCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseSetMax">testCaseSetMax</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseSetMin">testCaseSetMin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseSetMin">testCaseSetMin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseSetPrice">testCaseSetPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Functional_Testing -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Functional_Testing" class="hide-methods passed suite-Functional_Testing"> (hide)</a> <!-- hide-methods passed suite-Functional_Testing -->
+                      <a href="#" panel-name="suite-Functional_Testing" class="show-methods passed suite-Functional_Testing"> (show)</a> <!-- show-methods passed suite-Functional_Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Functional_Testing">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="screenshotInitial">screenshotInitial</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="screenshotInitial">screenshotInitial</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="screenshotResult">screenshotResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseCitySelect">testCaseCitySelect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseCitySelect">testCaseCitySelect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseDate">testCaseDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseDate">testCaseDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseHotelCount">testCaseHotelCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseLocationBox">testCaseLocationBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseLocationBox">testCaseLocationBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseLocationInput">testCaseLocationInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseLocationInput">testCaseLocationInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseReadExcel">testCaseReadExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseReadExcel">testCaseReadExcel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseSearch">testCaseSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseSearch">testCaseSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseSetMax">testCaseSetMax</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseSetPrice">testCaseSetPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseStaysButton">testCaseStaysButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseStaysButton">testCaseStaysButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseWriteExcel(chrome)">testCaseWriteExcel(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing" title="testscenarios.Hotels" hash-for-method="testCaseWriteExcel(firefox)">testCaseWriteExcel(firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Functional_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Functional_Testing" class="panel Functional_Testing">
+          <div class="suite-Functional_Testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testscenarios.Hotels</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshotResult">
+                  </a> <!-- screenshotResult -->
+                  <span class="method-name">screenshotResult</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PCIN487046&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9728, moz:profile: C:\Users\875381\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8fea9bc9-c7a8-4bc0-a7e7-4a3c10c2f4e7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at userdefinedlibraries.Screenshot.screenshot(Screenshot.java:23)
+	at testscenarios.Hotels.screenshotResult(Hotels.java:240)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseHotelCount">
+                  </a> <!-- testCaseHotelCount -->
+                  <span class="method-name">testCaseHotelCount</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PCIN487046&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9728, moz:profile: C:\Users\875381\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8fea9bc9-c7a8-4bc0-a7e7-4a3c10c2f4e7
+*** Element info: {Using=xpath, value=//a[contains(@id,&quot;-price-reset&quot;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at testobjectrepository.HomePage.resetText(HomePage.java:84)
+	at testscenarios.Hotels.testCaseHotelCount(Hotels.java:195)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSetMax">
+                  </a> <!-- testCaseSetMax -->
+                  <span class="method-name">testCaseSetMax</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PCIN487046&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9728, moz:profile: C:\Users\875381\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8fea9bc9-c7a8-4bc0-a7e7-4a3c10c2f4e7
+*** Element info: {Using=xpath, value=//*[contains(@id,&quot;-maxInput-input&quot;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at testobjectrepository.HomePage.maxPriceTextBox(HomePage.java:78)
+	at testscenarios.Hotels.testCaseSetMax(Hotels.java:183)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSetMin">
+                  </a> <!-- testCaseSetMin -->
+                  <span class="method-name">testCaseSetMin</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for value to contain &quot;600&quot;. Current value: &quot;null&quot; (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PCIN487046&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\875381\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57632}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4c24d6e3be8d87b89ef0cbf35f8e12cb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at testscenarios.Hotels.testCaseSetMin(Hotels.java:173)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSetMin">
+                  </a> <!-- testCaseSetMin -->
+                  <span class="method-name">testCaseSetMin</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PCIN487046&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9728, moz:profile: C:\Users\875381\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8fea9bc9-c7a8-4bc0-a7e7-4a3c10c2f4e7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.ui.ExpectedConditions.getAttributeOrCssValue(ExpectedConditions.java:1139)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$38.apply(ExpectedConditions.java:1084)
+	at org.openqa.selenium.support.ui.ExpectedConditions$38.apply(ExpectedConditions.java:1079)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at testscenarios.Hotels.testCaseSetMin(Hotels.java:173)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSetPrice">
+                  </a> <!-- testCaseSetPrice -->
+                  <span class="method-name">testCaseSetPrice</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on WINDOWS (8fea9bc9-c7a8-4bc0-a7e7-4a3c10c2f4e7)] -&gt; xpath: //span[@class=&quot;min&quot;]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PCIN487046&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 9728, moz:profile: C:\Users\875381\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8fea9bc9-c7a8-4bc0-a7e7-4a3c10c2f4e7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at testscenarios.Hotels.testCaseSetPrice(Hotels.java:156)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing-class-failed -->
+          <div class="suite-Functional_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscenarios.Hotels</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshotInitial">
+                  </a> <!-- screenshotInitial -->
+                  <span class="method-name">screenshotInitial</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshotInitial">
+                  </a> <!-- screenshotInitial -->
+                  <span class="method-name">screenshotInitial</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="screenshotResult">
+                  </a> <!-- screenshotResult -->
+                  <span class="method-name">screenshotResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseCitySelect">
+                  </a> <!-- testCaseCitySelect -->
+                  <span class="method-name">testCaseCitySelect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseCitySelect">
+                  </a> <!-- testCaseCitySelect -->
+                  <span class="method-name">testCaseCitySelect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseDate">
+                  </a> <!-- testCaseDate -->
+                  <span class="method-name">testCaseDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseDate">
+                  </a> <!-- testCaseDate -->
+                  <span class="method-name">testCaseDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseHotelCount">
+                  </a> <!-- testCaseHotelCount -->
+                  <span class="method-name">testCaseHotelCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseLocationBox">
+                  </a> <!-- testCaseLocationBox -->
+                  <span class="method-name">testCaseLocationBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseLocationBox">
+                  </a> <!-- testCaseLocationBox -->
+                  <span class="method-name">testCaseLocationBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseLocationInput">
+                  </a> <!-- testCaseLocationInput -->
+                  <span class="method-name">testCaseLocationInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseLocationInput">
+                  </a> <!-- testCaseLocationInput -->
+                  <span class="method-name">testCaseLocationInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseReadExcel">
+                  </a> <!-- testCaseReadExcel -->
+                  <span class="method-name">testCaseReadExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseReadExcel">
+                  </a> <!-- testCaseReadExcel -->
+                  <span class="method-name">testCaseReadExcel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSearch">
+                  </a> <!-- testCaseSearch -->
+                  <span class="method-name">testCaseSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSearch">
+                  </a> <!-- testCaseSearch -->
+                  <span class="method-name">testCaseSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSetMax">
+                  </a> <!-- testCaseSetMax -->
+                  <span class="method-name">testCaseSetMax</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseSetPrice">
+                  </a> <!-- testCaseSetPrice -->
+                  <span class="method-name">testCaseSetPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseStaysButton">
+                  </a> <!-- testCaseStaysButton -->
+                  <span class="method-name">testCaseStaysButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseStaysButton">
+                  </a> <!-- testCaseStaysButton -->
+                  <span class="method-name">testCaseStaysButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseWriteExcel(chrome)">
+                  </a> <!-- testCaseWriteExcel(chrome) -->
+                  <span class="method-name">testCaseWriteExcel</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseWriteExcel(firefox)">
+                  </a> <!-- testCaseWriteExcel(firefox) -->
+                  <span class="method-name">testCaseWriteExcel</span>
+                  <span class="parameters">(firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing-class-passed -->
+        </div> <!-- panel Functional_Testing -->
+        <div panel-name="test-xml-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\875381\eclipse-workspace\HotelAvailability\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Functional Testing&quot;&gt;
+  &lt;test name=&quot;hotel booking-chromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testscenarios.Hotels&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- hotel booking-chromeTest --&gt;
+  &lt;test name=&quot;hotel booking-firefoxTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testscenarios.Hotels&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- hotel booking-firefoxTest --&gt;
+&lt;/suite&gt; &lt;!-- Functional Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">hotel booking-chromeTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">hotel booking-firefoxTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Functional_Testing');
+function tableData_Functional_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCaseSetMin')
+data.setCell(0, 2, 'testscenarios.Hotels')
+data.setCell(0, 3, 38861);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCaseSetMin')
+data.setCell(1, 2, 'testscenarios.Hotels')
+data.setCell(1, 3, 22121);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCaseSetPrice')
+data.setCell(2, 2, 'testscenarios.Hotels')
+data.setCell(2, 3, 11923);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCaseReadExcel')
+data.setCell(3, 2, 'testscenarios.Hotels')
+data.setCell(3, 3, 11256);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCaseWriteExcel')
+data.setCell(4, 2, 'testscenarios.Hotels')
+data.setCell(4, 3, 5640);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCaseDate')
+data.setCell(5, 2, 'testscenarios.Hotels')
+data.setCell(5, 3, 3842);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCaseSetPrice')
+data.setCell(6, 2, 'testscenarios.Hotels')
+data.setCell(6, 3, 2584);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCaseStaysButton')
+data.setCell(7, 2, 'testscenarios.Hotels')
+data.setCell(7, 3, 2280);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCaseLocationBox')
+data.setCell(8, 2, 'testscenarios.Hotels')
+data.setCell(8, 3, 2122);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCaseStaysButton')
+data.setCell(9, 2, 'testscenarios.Hotels')
+data.setCell(9, 3, 1554);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'screenshotInitial')
+data.setCell(10, 2, 'testscenarios.Hotels')
+data.setCell(10, 3, 1546);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCaseHotelCount')
+data.setCell(11, 2, 'testscenarios.Hotels')
+data.setCell(11, 3, 1421);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'screenshotInitial')
+data.setCell(12, 2, 'testscenarios.Hotels')
+data.setCell(12, 3, 1236);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCaseCitySelect')
+data.setCell(13, 2, 'testscenarios.Hotels')
+data.setCell(13, 3, 1038);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCaseLocationBox')
+data.setCell(14, 2, 'testscenarios.Hotels')
+data.setCell(14, 3, 903);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCaseSetMax')
+data.setCell(15, 2, 'testscenarios.Hotels')
+data.setCell(15, 3, 774);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'screenshotResult')
+data.setCell(16, 2, 'testscenarios.Hotels')
+data.setCell(16, 3, 507);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCaseCitySelect')
+data.setCell(17, 2, 'testscenarios.Hotels')
+data.setCell(17, 3, 455);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testCaseDate')
+data.setCell(18, 2, 'testscenarios.Hotels')
+data.setCell(18, 3, 412);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testCaseLocationInput')
+data.setCell(19, 2, 'testscenarios.Hotels')
+data.setCell(19, 3, 320);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testCaseSearch')
+data.setCell(20, 2, 'testscenarios.Hotels')
+data.setCell(20, 3, 256);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCaseLocationInput')
+data.setCell(21, 2, 'testscenarios.Hotels')
+data.setCell(21, 3, 135);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testCaseSearch')
+data.setCell(22, 2, 'testscenarios.Hotels')
+data.setCell(22, 3, 74);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCaseReadExcel')
+data.setCell(23, 2, 'testscenarios.Hotels')
+data.setCell(23, 3, 32);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCaseWriteExcel')
+data.setCell(24, 2, 'testscenarios.Hotels')
+data.setCell(24, 3, 14);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testCaseSetMax')
+data.setCell(25, 2, 'testscenarios.Hotels')
+data.setCell(25, 3, 4);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testCaseHotelCount')
+data.setCell(26, 2, 'testscenarios.Hotels')
+data.setCell(26, 3, 3);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'screenshotResult')
+data.setCell(27, 2, 'testscenarios.Hotels')
+data.setCell(27, 3, 2);
+window.suiteTableData['Functional_Testing']= { tableData: data, tableDiv: 'times-div-Functional_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Functional_Testing">
+              </div> <!-- times-div-Functional_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Functional Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Functional_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscenarios.Hotels</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverConfig(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCaseReadExcel</span>
+                <span class="method-start">26101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseStaysButton</span>
+                <span class="method-start">37361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseLocationBox</span>
+                <span class="method-start">38921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseLocationInput</span>
+                <span class="method-start">41046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseCitySelect</span>
+                <span class="method-start">41182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseDate</span>
+                <span class="method-start">42223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseSearch</span>
+                <span class="method-start">42639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenshotInitial</span>
+                <span class="method-start">42717 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseSetPrice</span>
+                <span class="method-start">44266 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCaseSetMin</span>
+                <span class="method-start">46854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseSetMax</span>
+                <span class="method-start">69238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseHotelCount</span>
+                <span class="method-start">70015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseWriteExcel(chrome)</span>
+                <span class="method-start">71444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenshotResult</span>
+                <span class="method-start">77088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">77596 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">driverConfig(firefox)</span>
+                <span class="method-start">85381 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCaseReadExcel</span>
+                <span class="method-start">152194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseStaysButton</span>
+                <span class="method-start">152227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseLocationBox</span>
+                <span class="method-start">154511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseLocationInput</span>
+                <span class="method-start">155417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseCitySelect</span>
+                <span class="method-start">155741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseDate</span>
+                <span class="method-start">156200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseSearch</span>
+                <span class="method-start">160046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">screenshotInitial</span>
+                <span class="method-start">160308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCaseSetPrice</span>
+                <span class="method-start">161547 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCaseSetMin</span>
+                <span class="method-start">173475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCaseSetMax</span>
+                <span class="method-start">212339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCaseHotelCount</span>
+                <span class="method-start">212344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCaseWriteExcel(firefox)</span>
+                <span class="method-start">212348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">screenshotResult</span>
+                <span class="method-start">212363 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">driverExit</span>
+                <span class="method-start">212366 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
